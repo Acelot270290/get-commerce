@@ -8,3 +8,4 @@ Route::get('/category/{category}', [ProductController::class, 'showCategory'])->
 Route::get('/api/products/{category}', [ProductController::class, 'getProducts'])->name('api.products');
 Route::post('/scrape-products', [ProductController::class, 'scrapeProducts'])->name('scrape.products');
 
+

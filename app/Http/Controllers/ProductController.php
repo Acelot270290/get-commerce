@@ -3,10 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\Product;
-use Illuminate\Support\Facades\Artisan;
+use Artisan;
 use Illuminate\Support\Facades\Log;
-use Yajra\DataTables\DataTables; // Importando a classe DataTables
+use Yajra\DataTables\DataTables;
+use App\Models\Product;
 
 class ProductController extends Controller
 {

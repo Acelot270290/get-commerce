@@ -11,6 +11,9 @@
 <body>
     <div class="container">
         <h1 class="mt-5">{{ ucfirst($category) }}</h1>
+        <div class="mb-3">
+            <a href="{{ route('home') }}" class="btn btn-secondary">Voltar para a Home</a>
+        </div>
         <table id="products-table" class="display table table-striped table-bordered">
             <thead>
                 <tr>
